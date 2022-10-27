@@ -33,28 +33,28 @@
 }
 
 .speakers-image {
-    display: flex;
+    display: grid;
+    /* grid-template-rows: repeat(4, 1fr); */
+    grid-column: 1fr 1fr 1fr 1fr;
     /* border: 1px solid red; */
 }  
 
-/* .bobby-image {
-    height: 10px;
-    width: 20px;
+.Frank {
+    height: 50px;
+    width: 50px;
 }
 
-.jenny-image {
-    height: 10px;
-    width: 20px;
+.Bobs {
+    height: 50px;
+    width: 50px;
 }
 
-.jacob-image {
-    height: 10px;
-    width: 20px;
+.Anna {
+    height: 50px;
+    width: 50px;
 }
 
-.clara-image {
-    height: 10px;
-    width: 20px;
-} */
-
-
+.Jane {
+    height: 50px;
+    width: 50px;
+}
