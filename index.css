@@ -40,13 +40,16 @@
     font: 15px sans-serif;
 }
 
+button {
+    border-radius: 7px;
+    color: #a6b4ce;
+    color: white;
+}
+
 
 .sign-up {
-    /* text-decoration: underline; */
-    color: white;
     background-color: #3882f6;
     border: 1px solid #ffff;
-    text-decoration: none;
     padding: 0.2rem;
     margin: 0.8rem;
 }
@@ -70,7 +73,15 @@
 .links {
     display: flex;
     column-gap: 1.25rem;
-    margin: 1.5rem 0 0 55rem;
+    margin: 1.5rem 0 0 55rem; 
+}
+
+.navbar a {
+    color: whitesmoke;
+}
+
+.navbar a:hover {
+    color: red;
 }
 
 
